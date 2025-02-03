@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet", href="{% static 'blog/Style.css'%}">
+</head>
+<body>
+
+
+
+
+{% for blog in blogs %}
+<div class="blog-wrapper">
+  <div class="blog-card">
+
+    </div>
+    <div class="card-details"><span><i class="fa fa-calendar"></i></span><span><i class="fa fa-heart"></i></span></div>
+    <div class="card-text"><p>{{blog2.body}}</p></div>
+    <div class="Real-mead"><h3>P.Diddy</h3>
+
+    </div>
+  </div>
+
+
+
+
+  </div>
+</div>
+
+
+{% endfor %}
+
+
+
+</body>
+</html>
