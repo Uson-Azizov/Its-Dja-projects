@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="631b6800-4183-4475-a383-c84be59163c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/register/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Login/LoginSC.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Region/RegionsSt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/registrations/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/Comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/Region.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Why/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Why/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Why/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Why/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/Area.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/Area.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/blog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
