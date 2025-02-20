@@ -3,8 +3,8 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Area</title>
-        <link rel="stylesheet" href="{% static 'Area/AreaSt.css' %}">
+        <title>Region</title>
+        <link rel="stylesheet" href="{% static 'Region/RegionsSt.css' %}">
     </head>
     <body>
     <div class="menu">
@@ -13,30 +13,30 @@
 
     <ul>
       <li><a class="active" href="#home">Home</a></li>
-      <li><a href="http://127.0.0.1:8000/blog/">Countries</a></li>
-      <li><a href="http://127.0.0.1:8000/blog/CreateArea/">CreateArea</a></li>
-      <li><a href="http://127.0.0.1:8000/blog/regions">Regions</a></li>
-      <li><a href="#about">About</a></li>
+        <li><a href="http://127.0.0.1:8000/blog/CreateRegion/">CreateRegion</a></li>
+        <li><a href="http://127.0.0.1:8000/blog/">Countries</a></li>
+        <li><a href="http://127.0.0.1:8000/blog/area/">Areas</a></li>
+        <li><a href="#about">About</a></li>
     </ul>
 
     </div>
 
 
 
-    {% for Area in area %}
+    {% for region in regions %}
         <div class="blog-wrapper">
             <div class="blog-card">
                 <div class="card-img">
-                    <h2>{{ Area.name }}</h2>
+                    <h2>{{region.user}}</h2>
                 </div>
 
                 <div class="card-details">
-                    <span><i class="fa fa-calendar"></i> {{ blog.created_at }}</span>
-                    <span><i class="fa fa-heart"></i> {{ blog.likes }}</span>
+                    <span><i class="fa fa-calendar"></i> {{ regions.created_at }}</span>
+                    <span><i class="fa fa-heart"></i> {{ regions.likes }}</span>
                 </div>
 
                 <div class="card-text">
-                    <p>{{ Area.about }}</p>
+                    <p>{{region.topic}}</p>
                 </div>
 
                 <div class="read-more">

@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import dj_database_url
 
 load_dotenv()  # take environment variables from .env.
 
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main',
     'blog',
+    'register'
 ]
 
 MIDDLEWARE = [
@@ -74,16 +76,21 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Why.wsgi.application'
 
+AUTH_USER_MODEL = 'register.User'
 
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.parse('postgresql://virtsite_user:JW8eDvENbrEt1SlB095qjyujT35yLdBx@dpg-cuqsjv5ds78s73826as0-a.oregon-postgres.render.com/virtsite')
 }
+
+
+
+
+
+
+
+
+
 
 
 # Password validation
@@ -134,3 +141,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+]
